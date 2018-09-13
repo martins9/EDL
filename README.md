@@ -1,5 +1,4 @@
 # Disciplina EDL
-
 # Author: Saulo Martins Soares da Fonseca <h1>
 
 * Ciência da Computação
