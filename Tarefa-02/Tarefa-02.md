@@ -17,11 +17,11 @@ executados de forma interativa e também permitir a criação de scripts. <p>
 ![TimeLine](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/Timeline.png)
 <br>Time line dos Shell's desde 1977
 
-Após a criação de Shell Bourne houve a criação de outros que tiveram a sua influência. Abaixo alguns exemplos de Shell
-inflênciadosna sua criação por Shell Bourn:
+Após a criação de Shell Bourne houve a criação de outros que tiveram a sua influência. Abaixo alguns exemplos de Shells
+inflênciados pela criação por Shell Bourn:
 
 1. Shell Korn (ksh)
+<br/> Este Shell foi desenvolvido por David Korn, programador americano, 
+
 2. C Sheel (csh)
 3. Bash
-
-TESTE
