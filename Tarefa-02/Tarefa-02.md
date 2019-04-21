@@ -34,5 +34,53 @@ Porém, a diferença dos outros seria o estilo em programa e as interações que
 de programação C.
 
 3. Bash
-<br/> O bash foi desenvolvido dentro do projeto GNU pela Free Software Foundation, este Shel tornou-se padrão de variáveis
-distribuições Linux e compatível com Bourne Shell o qual teve forte influência do mesmo.
+<br/> O bash foi desenvolvido dentro do projeto GNU pela Free Software Foundation e lançado a primeira vez em 1989. 
+Tornou-se padrão de varias distribuições Linux e compatível com Bourne Shell o qual teve forte influência do mesmo. Este 
+Shell ao longo do tempo trouxe consigo vários recursos de outros Shell's como _piping_, _globbing_, iteração e tantos 
+outros.
+
+ 
+<h2>Arquitetura do Shell e Classificação da Linguagem Script</h2>
+-   <h3> Arquitetura do Shell</h3> 
+Basicamente a arquitetura do Shell é dividido em: Shell, Aplicações, Biblioteca de Funções Padrão, Kernel e Hardware. 
+Conforme é demonstrado na imagem abaixo: <br/>
+        
+![Arquitetura](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/Arquitetura.png)
+<br> Esquematização da Arquitetura do Shell
+
+Abaixo a explicação dos componentes envolvidos na arquitetura do Shell:<br/>
+
+1. **Shell** <br/>
+A camada Shell é uma interface que interage com o usuário e, assim, ele recebe e interpreta os comandos passados.
+Por exemplo, qunado um usuário passa comando "ls" (list), então o shell interpreta o comando, busca o arquivo respectivo
+ao comando e inicia a sua execução e ao final retorna a resposta da execução do comando. Sem esquecer que ao iniciar o 
+comando ele está gerando um processo.<br/>
+
+2. **Aplicações** <br/>
+A camada das aplicações é onde se hospedam as aplicações que há interação de forma com a inteface como: editores de 
+texto, browser de navegação web, editores de mídias e etc. <br/>
+
+3. **Biblioteca de Funções Padrão** <br/>
+Esta camada tem por objetivo guardar as principais funções do Linux para interação com o usuário assim como as funções: 
+open, read, write e close, por exemplo.
+
+4. **Kernel**<br/>
+Esta camada tem como objetivo fazer o intermédio entre as aplicações e o hardware o qual a distribuição Linux está
+instalado. O Kernel tem algumas funcionalidades principais como: detectar o hardware que ele possui, gerenciar os 
+processos, gerenciar a memória, gerenciar os dispositivos periféricos, ou seja, ele tem a função de fazer a inteface
+entre o hardware e sofware sendo o organizador delas.
+
+5. **Hardware**<br/>
+É a camada onde a distribuição Linux será executada/instalada, ou seja, o conjunto de dispositivos físicos que hospedam 
+e dão surporte para que o sistema seja executado.
+
+-   <h3> Classificação da Linguagem Script</h3>
+A linguagem Shell Script se encaixa em dois paradigmas que são:
+1. Imperativo, pois permite o uso de estruturas de repetição, estruturas condicionais, mudança de comportamento das 
+variáveis.
+2. Procedural, pois no Shell Script permite-se a chamada de funções/procedimentos já estabelecidos pelo Shell a qualquer
+hora da execução de um programa respeitando a sintaxe do mesmo. Logo, também permite-se a criação de novas funções que 
+podem ser reusadas por outros programas formando-se assim uma biblioteca.
+
+
+<h2>Exemplos de código em Shell Script</h2>
