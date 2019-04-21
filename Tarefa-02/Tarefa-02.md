@@ -21,7 +21,18 @@ Após a criação de Shell Bourne houve a criação de outros que tiveram a sua 
 inflênciados pela criação por Shell Bourn:
 
 1. Shell Korn (ksh)
-<br/> Este Shell foi desenvolvido por David Korn, programador americano, 
-
+<br/> Foi desenvolvido por David Korn, programador americano, na Bell Labs no início dos anos de 1980's.
+O Korn Shell foi baseado em Bourne Shell e inclui muitos recursos do shell C, este trouxe consigo algumas 
+funcionalidades como:
+    - Command History: Comando que recupera comandos já digitados e, assim, reexecutá-los.
+    - Command aliasing: Comando que permite a substituição de uma palavra(comando)  por uma string.
 2. C Sheel (csh)
+<br/> Foi desenvolvido por Bill Joy, engenheiro da computação americano e co-fundador da Sun Microsystems, no final dos
+anos de 1970's na sua pós-graduação. A sua sintaxe foi desenvolvida e baseada segundo a linguagem de programação Ansi C
+e como todos os outros Shell's era permitido: variáveis, estruturas de controle, iteração e etc.
+Porém, a diferença dos outros seria o estilo em programa e as interações que se assemelhavam com a estrutura da linguagem 
+de programação C.
+
 3. Bash
+<br/> O bash foi desenvolvido dentro do projeto GNU pela Free Software Foundation, este Shel tornou-se padrão de variáveis
+distribuições Linux e compatível com Bourne Shell o qual teve forte influência do mesmo.
