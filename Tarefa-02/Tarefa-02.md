@@ -90,6 +90,17 @@ Sheell Script tem tipagem dinâmica, ou seja, não necessita da declaração dos
 definidas na compilação ou execução dos programas. Abaixo a imagem exemplificando: 
 
 ![Variaves](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/variaveis.png)
-<br> Exemplificação de tipagem dinâmica no Shell Script
+<br> Exemplificação de tipagem dinâmica <br> no Shell Script
 
 <h3>Operações</h3>
+As operações básicas são nativas da linguagem, porém quando se quer trabalhar com pontos 
+flutuantes, então deve-se usar uma linguagem chamada BC que sustenta essas operações.
+Abaixo imagens demonstrações essas operações.
+
+![Variaves](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/OperacoesBasicas.png)
+<br> Exemplificação de operações básicas <br>
+usando duas formas diferentes uma usando <br>
+o comando "expr" _expression_ e a outra que <br>
+é usando atribuição
+
+
