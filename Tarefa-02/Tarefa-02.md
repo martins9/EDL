@@ -1,7 +1,7 @@
 <h1>Trabalho sobre Linguagem Shell Script </h1>
 
 Shell Script é uma linguagem usada em sistemas operativos baseados em distribuições GNU/Linux. Basicamente, Shell é um 
-intermediário entre o Kernel e o usuário. Pois, o Shell interpreta as linhas de comando inseridas pelo o usuário, as 
+intermediário entre o Kernel e o usuário, pois o Shell interpreta as linhas de comando inseridas pelo o usuário, as 
 executa e devolve os resultados pelas saídas padrões. 
 
 <h2>Origens e Influências</h2>
@@ -84,3 +84,12 @@ podem ser reusadas por outros programas formando-se assim uma biblioteca.
 
 
 <h2>Exemplos de código em Shell Script</h2>
+
+<h3>Variáveis</h3>
+Sheell Script tem tipagem dinâmica, ou seja, não necessita da declaração dos tipos de dados, portanto os tipos são 
+definidas na compilação ou execução dos programas. Abaixo a imagem exemplificando: 
+
+![Variaves](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/variaveis.png)
+<br> Exemplificação de tipagem dinâmica no Shell Script
+
+<h3>Operações</h3>
