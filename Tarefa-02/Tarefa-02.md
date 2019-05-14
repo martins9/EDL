@@ -103,4 +103,8 @@ usando duas formas diferentes uma usando <br>
 o comando "expr" _expression_ e a outra que <br>
 é usando atribuição
 
+<h3>Expressividade</h3>
+No ambiente Linux há uma ferramenta muito poderosa chamada *Pipe*, esta tem com objetivo 
+
+
 
