@@ -104,7 +104,9 @@ o comando "expr" _expression_ e a outra que <br>
 é usando atribuição
 
 <h3>Expressividade</h3>
-No ambiente Linux há uma ferramenta muito poderosa chamada *Pipe*, esta tem com objetivo 
+No ambiente Linux há uma ferramenta muito poderosa chamada *Pipe*, esta tem como objetivo encadear 
+vários comandos em que o __Stdout__ torna-se __Stdin__ de outro comando, porém se houver um erro ao
+longo do encadeamento dos comandos, então o mesmo é encaminhando para o __Stderr__.
 
 
 
