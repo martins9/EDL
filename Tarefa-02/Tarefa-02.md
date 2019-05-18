@@ -14,7 +14,8 @@ Este feito só pôde ser realizado em 1977 com a criação do Shell Bourne criad
 computação e um dos desenvolvedores do ALGOL68, este Shell teve como objetivo ser um interpretador de comandos  a serem 
 executados de forma interativa e também permitir a criação de scripts. <p>
 
-![TimeLine](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/Timeline.png)
+#![TimeLine](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/Timeline.png)
+![Timeline](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/Timeline.png)
 <br>Time line dos Shell's desde 1977
 
 Após a criação de Shell Bourne houve a criação de outros que tiveram a sua influência. Abaixo alguns exemplos de Shells
@@ -89,7 +90,7 @@ podem ser reusadas por outros programas formando-se assim uma biblioteca.
 Sheell Script tem tipagem dinâmica, ou seja, não necessita da declaração dos tipos de dados, portanto os tipos são 
 definidas na compilação ou execução dos programas. Abaixo a imagem exemplificando: 
 
-![Variaves](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/variaveis.png)
+![Variaves](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/Variaveis.png)
 <br> Exemplificação de tipagem dinâmica <br> no Shell Script
 
 <h3>Operações</h3>
@@ -97,7 +98,7 @@ As operações básicas são nativas da linguagem, porém quando se quer trabalh
 flutuantes, então deve-se usar uma linguagem chamada BC que sustenta essas operações.
 Abaixo imagens demonstrações essas operações.
 
-![Variaves](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/OperacoesBasicas.png)
+![OperacoesBasicas](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/OperacoesBasicas.png)
 <br> Exemplificação de operações básicas <br>
 usando duas formas diferentes uma usando <br>
 o comando "expr" _expression_ e a outra que <br>
@@ -106,7 +107,8 @@ o comando "expr" _expression_ e a outra que <br>
 <h3>Expressividade</h3>
 No ambiente Linux há uma ferramenta muito poderosa chamada *Pipe*, esta tem como objetivo encadear 
 vários comandos em que o __Stdout__ torna-se __Stdin__ de outro comando, porém se houver um erro ao
-longo do encadeamento dos comandos, então o mesmo é encaminhando para o __Stderr__.
+longo do encadeamento dos comandos, então o mesmo é encaminhando para o __Stderr__ como mostra a imagem abaixo:
+![Pipeline](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/Pipeline.png)
+<br> Exexmplificação da operações de Pipeline
 
-
-
+-   <h3> Arquitetura do Shell</h3> 
