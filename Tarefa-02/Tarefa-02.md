@@ -104,11 +104,21 @@ usando duas formas diferentes uma usando <br>
 o comando "expr" _expression_ e a outra que <br>
 é usando atribuição
 
-<h3>Expressividade</h3>
+<h3>Funcionalidade</h3>
 No ambiente Linux há uma ferramenta muito poderosa chamada *Pipe*, esta tem como objetivo encadear 
-vários comandos em que o __Stdout__ torna-se __Stdin__ de outro comando, porém se houver um erro ao
+vários comandos em que o __Stdout__ torna-se __Stdin__ de outro comando, porém se houver algum erro ao
 longo do encadeamento dos comandos, então o mesmo é encaminhando para o __Stderr__ como mostra a imagem abaixo:
 ![Pipeline](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/Pipeline.png)
-<br> Exexmplificação da operações de Pipeline
+<br> Exemplificação da operações de Pipeline
 
--   <h3> Arquitetura do Shell</h3> 
+<br>
+<br>Em um Pipeline todos os processos são criados ao mesmo tempo e os dados percorrem de forma sequencial 
+da direita para esquerda. Quando um comando é executado, então o seu dado será guardado em buffer (write)
+e quando o outro comando é executado então é lido o buffer o dado que estava armazenado (read).
+Se um o buffer estiver cheio no momento da escrita, então o processo é bloqueado até o mesmo 
+ser esvaziado (flush).
+ 
+<h3> Expressividade</h3> 
+<h4> Pipeline no Shell</h4>
+Abaixo um exemplo 
+
