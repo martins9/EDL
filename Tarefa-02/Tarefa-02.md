@@ -89,7 +89,7 @@ podem ser reusadas por outros programas formando-se assim uma biblioteca.
 Sheell Script tem tipagem dinâmica, ou seja, não necessita da declaração dos tipos de dados, portanto os tipos são 
 definidas na compilação ou execução dos programas. Abaixo a imagem exemplificando: 
 
-![Variaves](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/Variaveis.png)
+![Variaves](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/Variaveis.png)
 <br> Exemplificação de tipagem dinâmica <br> no Shell Script
 
 <h3>Operações</h3>
@@ -97,7 +97,7 @@ As operações básicas são nativas da linguagem, porém quando se quer trabalh
 flutuantes, então deve-se usar uma linguagem chamada BC que sustenta essas operações.
 Abaixo imagens demonstrações essas operações.
 
-![OperacoesBasicas](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/OperacoesBasicas.png)
+![OperacoesBasicas](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/OperacoesBasicas.png)
 <br> Exemplificação de operações básicas <br>
 usando duas formas diferentes uma usando <br>
 o comando "expr" _expression_ e a outra que <br>
