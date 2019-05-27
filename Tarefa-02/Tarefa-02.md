@@ -14,7 +14,6 @@ Este feito só pôde ser realizado em 1977 com a criação do Shell Bourne criad
 computação e um dos desenvolvedores do ALGOL68, este Shell teve como objetivo ser um interpretador de comandos  a serem 
 executados de forma interativa e também permitir a criação de scripts. <p>
 
-#![TimeLine](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/Timeline.png)
 ![Timeline](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/Timeline.png)
 <br>Time line dos Shell's desde 1977
 
@@ -46,7 +45,7 @@ outros.
 Basicamente a arquitetura do Shell é dividido em: Shell, Aplicações, Biblioteca de Funções Padrão, Kernel e Hardware. 
 Conforme é demonstrado na imagem abaixo: <br/>
         
-![Arquitetura](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/Arquitetura.png)
+![Arquitetura](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/Arquitetura.png)
 <br> Esquematização da Arquitetura do Shell
 
 Abaixo a explicação dos componentes envolvidos na arquitetura do Shell:<br/>
@@ -120,5 +119,5 @@ ser esvaziado (flush).
  
 <h3> Expressividade</h3> 
 <h4> Pipeline no Shell</h4>
-Abaixo um exemplo 
+O pipeine funcin
 
