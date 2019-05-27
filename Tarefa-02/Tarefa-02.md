@@ -119,5 +119,5 @@ ser esvaziado (flush).
  
 <h3> Expressividade</h3> 
 <h4> Pipeline no Shell</h4>
-O pipeine funcin
+Abaixo será
 
