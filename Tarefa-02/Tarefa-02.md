@@ -117,11 +117,11 @@ e quando o outro comando é executado então é lido o buffer o dado que estava 
 Se um o buffer estiver cheio no momento da escrita, então o processo é bloqueado até o mesmo 
 ser esvaziado (flush).
  
-<h3> Expressividade</h3> 
-<h4> Pipeline no Shell</h4>
+<h3>Expressividade</h3> 
+<h4>Pipeline no Shell</h4>
 Como dito acima o Pipeline é um encadeamento de comandos que ajudam a realizar um determinado objetivo. 
 Abaixo um exemplo de código de pipeline. 
 
 <br>
-![PipelineShell](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/Pipeline.png)
+![PShell](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/PipelineShell.png)
 
