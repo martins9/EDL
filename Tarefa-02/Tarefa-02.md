@@ -125,3 +125,4 @@ Abaixo um exemplo de código de pipeline.
 
 ![PShell](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/PipelineShell.png)
 
+No exemplo acima mostra um exemplo 
