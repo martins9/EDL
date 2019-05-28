@@ -112,7 +112,7 @@ longo do encadeamento dos comandos, então o mesmo é encaminhando para o Stderr
 ![Pipeline](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/Pipeline.png)
 <br> Exemplificação da operações de Pipeline
 
-<br>Em um Pipeline todos os processos são criados ao mesmo tempo e os dados percorrem de forma sequencial 
+Em um Pipeline todos os processos são criados ao mesmo tempo e os dados percorrem de forma sequencial 
 da direita para esquerda. Quando um comando é executado, então o seu dado será guardado em buffer (write)
 e quando o outro comando é executado então é lido o buffer o dado que estava armazenado (read).
 Se um o buffer estiver cheio no momento da escrita, então o processo é bloqueado até o mesmo 
