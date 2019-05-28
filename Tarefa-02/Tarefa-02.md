@@ -119,5 +119,9 @@ ser esvaziado (flush).
  
 <h3> Expressividade</h3> 
 <h4> Pipeline no Shell</h4>
-Abaixo será
+Como dito acima o Pipeline é um encadeamento de comandos que ajudam a realizar um determinado objetivo. 
+Abaixo um exemplo de código de pipeline. 
+
+<br>
+![Pipeline](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/Pipeline.png)
 
