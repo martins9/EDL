@@ -20,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/Tarefa-02.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="587">
-                <caret line="124" selection-start-line="124" selection-end-line="124" />
+              <first_editor relative-caret-position="377">
+                <caret line="110" selection-start-line="110" selection-end-line="110" />
               </first_editor>
               <second_editor />
             </state>
@@ -209,14 +209,34 @@
       <option name="project" value="LOCAL" />
       <updated>1559011982228</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Novas inserções">
+      <created>1559012066940</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1559012066940</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Novas inserções">
+      <created>1559012172001</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1559012172001</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Novas inserções">
+      <created>1559012406292</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1559012406292</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.117395945" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.117395945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -234,7 +254,7 @@
       <window_info anchor="bottom" id="Jelastic" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3286638" />
-      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.16522679" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.16522679" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -269,8 +289,8 @@
     <entry file="file://$PROJECT_DIR$/Tarefa-02.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="587">
-            <caret line="124" selection-start-line="124" selection-end-line="124" />
+          <first_editor relative-caret-position="377">
+            <caret line="110" selection-start-line="110" selection-end-line="110" />
           </first_editor>
           <second_editor />
         </state>
