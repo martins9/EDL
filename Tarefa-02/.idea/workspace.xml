@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c80d53b8-c4cb-43d5-8050-3742ea67eb9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Tarefa-02.md" beforeDir="false" afterPath="$PROJECT_DIR$/Tarefa-02.md" afterDir="false" />
-    </list>
+    <list default="true" id="c80d53b8-c4cb-43d5-8050-3742ea67eb9c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559011462469</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Novas inserções">
+      <created>1559011596917</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1559011596917</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Novas inserções">
+      <created>1559011682562</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1559011682562</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
