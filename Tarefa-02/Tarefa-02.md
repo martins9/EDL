@@ -123,5 +123,5 @@ Como dito acima o Pipeline é um encadeamento de comandos que ajudam a realizar 
 Abaixo um exemplo de código de pipeline. 
 
 <br>
-![Pipeline](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/Pipeline.png)
+![PipelineShell](/home/smsf/Documentos/faculdade_2019/EDL/EDL/Tarefa-02/Imagens/Pipeline.png)
 
