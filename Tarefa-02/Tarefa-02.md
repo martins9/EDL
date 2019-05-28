@@ -104,8 +104,8 @@ o comando "expr" _expression_ e a outra que <br>
 é usando atribuição
 
 <h3>Funcionalidade</h3>
-No ambiente Linux há uma ferramenta muito poderosa chamada __*Pipe*__, esta tem como objetivo encadear 
-vários comandos em que o _Stdout_ torna-se _Stdin_ de outro comando, porém se houver algum erro ao
+No ambiente Linux há uma ferramenta muito poderosa chamada Pipe, esta tem como objetivo encadear 
+vários comandos em que o Stdout torna-se Stdin de outro comando, porém se houver algum erro ao
 longo do encadeamento dos comandos, então o mesmo é encaminhando para o _Stderr_ como mostra a imagem abaixo:
 ![Pipeline](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/Pipeline.png)
 <br> Exemplificação da operações de Pipeline
@@ -122,6 +122,5 @@ ser esvaziado (flush).
 Como dito acima o Pipeline é um encadeamento de comandos que ajudam a realizar um determinado objetivo. 
 Abaixo um exemplo de código de pipeline. 
 
-<br>
 ![PShell](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/PipelineShell.png)
 
