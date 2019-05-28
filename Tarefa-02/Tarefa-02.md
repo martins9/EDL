@@ -120,9 +120,13 @@ ser esvaziado (flush).
  
 <h3>Expressividade</h3> 
 <h4>Pipeline no Shell</h4>
-Como dito acima o Pipeline é um encadeamento de comandos que ajudam a realizar um determinado objetivo. 
+Como dito acima o pipeline é um encadeamento de comandos que ajudam a realizar um determinado objetivo. 
 Abaixo um exemplo de código de pipeline. 
 
 ![PShell](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/PipelineShell.png)
 
-No exemplo acima mostra um exemplo 
+No exemplo acima mmostra um código de pipeline composta por dois comandos que são:
+1. ls -R: listar os conteúdos de diretórios e subdiretórios recursivamente.
+2. grep ^jira-softw: extrair do primeiro resultado, somente, os resultados que combinarem 
+com o padrão de começar com a string "jira-softw", então será printado no sdtout do sistema, nesse caso 
+o shell.
