@@ -99,9 +99,8 @@ Abaixo imagens demonstrações essas operações.
 
 ![OperacoesBasicas](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/OperacoesBasicas.png)
 <br> Exemplificação de operações básicas usando duas <br>
-formas diferentes uma usando <br>
-o comando "expr" _expression_ e a outra que <br>
-é usando atribuição
+formas diferentes uma usando o comando "expr" _expression_ <br>
+e a outra que é usando atribuição
 
 <h3>Controles de Fluxos</h3>
 O Shell Sript possui controle de fluxo também como qualquer outra linguagem, porém como toda linguagem 
