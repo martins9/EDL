@@ -135,7 +135,7 @@ vários comandos em que o Stdout torna-se Stdin de outro comando, porém se houv
 longo do encadeamento dos comandos, então o mesmo é encaminhando para o Stderr como mostra a imagem abaixo:
 
 ![Pipeline](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/Pipeline.png)
-<br> Exemplificação da operações de Pipeline
+<br>Exemplificação da operações de Pipeline
 
 Em um Pipeline todos os processos são criados ao mesmo tempo e os dados percorrem de forma sequencial 
 da direita para esquerda. Quando um comando é executado, então o seu dado será guardado em buffer (write)
