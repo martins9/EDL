@@ -95,7 +95,7 @@ definidas na compilação ou execução dos programas. Abaixo a imagem exemplifi
 <h3>Operações</h3>
 As operações básicas são nativas da linguagem, porém quando se quer trabalhar com pontos 
 flutuantes, então deve-se usar uma linguagem chamada BC que sustenta essas operações.
-Abaixo imagens demonstrações essas operações.
+Abaixo a imagem exemplificando:
 
 ![OperacoesBasicas](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/OperacoesBasicas.png)
 <br> Exemplificação de operações básicas usando duas <br>
@@ -112,6 +112,7 @@ conforme pode ser ver abaixo: <br>
 - -gt : (greater than) Maior que <br>
 - -le : (less or egual) Menor ou igual à <br>
 - -ge : (greater or equal) Maior ou igual à <br>
+
 
 ![ControlesFluxos](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/Controle_Fluxo_1.png)
 
