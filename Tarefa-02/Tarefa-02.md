@@ -104,6 +104,28 @@ usando duas formas diferentes uma usando <br>
 o comando "expr" _expression_ e a outra que <br>
 é usando atribuição
 
+<h3>Controles de Fluxos</h3>
+O Shell Sript possui controle de fluxo também como qualquer outra linguagem, porém como toda linguagem 
+possui peculiaridades como, por exemplo, as condicionais dentro dos _IF's_ são definidas por letras
+conforme pode ser ver abaixo: <br>
+- eq : (equal) Igual à <br>
+- ne : (not equal) Diferente de <br>
+- lt : (less than) Menor que <br>
+- gt : (greater than) Maior que <br>
+- le : (less or egual) Menor ou igual à <br>
+- ge : (greater or equal) Maior ou igual à <br>
+
+O controle de fluxo especificamente no Shell Script possui outras opções como:
+- n : String existe e não é vazia (apenas um operador)
+- -z : String existe e é vazia (apenas um operador)
+- -s : Arquivo existe, não vazio (apenas um operador)
+- -f : Arquivo existe, não é um diretório (apenas um operador)
+- -d : Diretório existe (apenas um operador)
+- -w : Arquivo, com permissão de escrita (apenas um operador)
+- -r : Arquivo, com permissão de leitura (apenas um operador)
+- -x : Arquivo, com parmissão de execução  -x  (apenas um operador)
+
+
 <h3>Funcionalidade</h3>
 No ambiente Linux há uma ferramenta muito poderosa chamada Pipe, esta tem como objetivo encadear 
 vários comandos em que o Stdout torna-se Stdin de outro comando, porém se houver algum erro ao
