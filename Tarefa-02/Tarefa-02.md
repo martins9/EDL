@@ -41,7 +41,7 @@ outros.
 
  
 <h2>Arquitetura do Shell e Classificação da Linguagem Script</h2>
--   <h3> Arquitetura do Shell</h3> 
+<h3> Arquitetura do Shell</h3> 
 Basicamente a arquitetura do Shell é dividido em: Shell, Aplicações, Biblioteca de Funções Padrão, Kernel e Hardware. 
 Conforme é demonstrado na imagem abaixo: <br/>
         
