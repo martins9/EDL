@@ -114,7 +114,7 @@ conforme pode ser ver abaixo: <br>
 - -ge : (greater or equal) Maior ou igual à <br><br>
 
 ![ControlesFluxos](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/Controle_Fluxo_1.png)
-Exemplificação dos Controles de Fluxos
+<br>Exemplificação dos Controles de Fluxos
 
 O controle de fluxo especificamente no Shell Script possui outras opções como:
 - n : String existe e não é vazia (apenas um operador)
@@ -127,7 +127,7 @@ O controle de fluxo especificamente no Shell Script possui outras opções como:
 - -x : Arquivo, com parmissão de execução  -x  (apenas um operador)
 
 ![ControlesFluxos](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/Controle_Fluxo_2.png)
-Exemplificação dos Controles de Fluxos
+<br>Exemplificação dos Controles de Fluxos
 
 <h3>Funcionalidade</h3>
 No ambiente Linux há uma ferramenta muito poderosa chamada Pipe, esta tem como objetivo encadear 
