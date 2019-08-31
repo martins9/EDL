@@ -98,7 +98,8 @@ flutuantes, então deve-se usar uma linguagem chamada BC que sustenta essas oper
 Abaixo imagens demonstrações essas operações.
 
 ![OperacoesBasicas](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/OperacoesBasicas.png)
-<br> Exemplificação de operações básicas usando duas formas diferentes uma usando <br>
+<br> Exemplificação de operações básicas usando duas <br>
+formas diferentes uma usando <br>
 o comando "expr" _expression_ e a outra que <br>
 é usando atribuição
 
