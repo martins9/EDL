@@ -113,7 +113,6 @@ conforme pode ser ver abaixo: <br>
 - -le : (less or egual) Menor ou igual à <br>
 - -ge : (greater or equal) Maior ou igual à <br>
 
-
 ![ControlesFluxos](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/Controle_Fluxo_1.png)
 
 O controle de fluxo especificamente no Shell Script possui outras opções como:
