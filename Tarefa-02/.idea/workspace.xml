@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c80d53b8-c4cb-43d5-8050-3742ea67eb9c" name="Default Changelist" comment="" />
+    <list default="true" id="c80d53b8-c4cb-43d5-8050-3742ea67eb9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Imagens/Controle_Fluxo_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarefa-02.md" beforeDir="false" afterPath="$PROJECT_DIR$/Tarefa-02.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567289425185</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Novas inserções">
+      <created>1567290409561</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1567290409561</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

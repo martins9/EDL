@@ -125,7 +125,7 @@ O controle de fluxo especificamente no Shell Script possui outras opções como:
 - -r : Arquivo, com permissão de leitura (apenas um operador)
 - -x : Arquivo, com parmissão de execução  -x  (apenas um operador)
 
-
+![]()
 
 
 <h3>Funcionalidade</h3>
