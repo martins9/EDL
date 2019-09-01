@@ -157,13 +157,13 @@ Abaixo um exemplo de código de pipeline.
 
 ![PShell](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/PipelineShell.png)
 
-No exemplo acima 
-mostra um código de pipeline composta por dois comandos que são:
-1. ls -R: listar os conteúdos de diretórios e subdiretórios recursivamente.
+No exemplo acima mostra um código de pipeline composta por dois comandos que são:
+1. **ls -R**: listar os conteúdos de diretórios e subdiretórios recursivamente.
 2. grep ^jira-softw: extrair do primeiro resultado, somente, os resultados que combinarem 
 com o padrão de começar com a string "jira-softw", então será printado no sdtout do sistema, 
 nesse caso o shell.
 
-Agora, realizando o mesmo procedimento na Linguagem Python.
-
+No exemplo abaixo é realizado na Linguagem Python o que foi feito na Linguagem Shell Script.
  ![PShell](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/PipelineShell1.png)
+ 
+Fazendo a comp
