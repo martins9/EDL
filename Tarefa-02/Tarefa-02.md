@@ -134,7 +134,7 @@ Shell Script possui estrutura de repetições também como qualquer outra lingua
 possui os estruturas conhecidas como: for, while e particularmente conhecida Until.
 
 ![EstruturaRepeticao](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/Estrutura_Repeticao.png)
-Exemplificação de Estrutura de Repetição
+<br>Exemplificação de Estrutura de Repetição
 
 <h3>Funcionalidade</h3>
 No ambiente Linux há uma ferramenta muito poderosa chamada Pipe, esta tem como objetivo encadear 
