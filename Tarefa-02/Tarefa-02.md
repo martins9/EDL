@@ -167,8 +167,17 @@ No exemplo abaixo é realizado na Linguagem Python o que foi feito na Linguagem 
  ![PShell](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/PipelineShell1.png)
  
 Em Python, há um módulo para chamado **subprocess** que tem por objetivo auxiliar os comandos de Shell.
-Este módulo tem outras funções como **Popen** e **Pipe** que administram os processos criados 
+Este módulo tem classes como **POPEN** que criam e gerenciam os processos e um parâmetro chamado**PIPE** 
+que pode ser passado como argumento que serve com STDIN, STDOUT ou STDERR.
 
+<h4>Análise Comparativa</h4>
+Pode ser observado que enquanto a funcionalidade PIPE que vem como padrão em sistemas operativos 
+baseados em Unix e, assim, pode ser usada pelo Linguagem Shell Script. Enquanto que na Linguagem 
+Python para realizar o mesmo procedimento, pois ele não vem por padrão na Linguagem de Python, 
+então foi desenvolvido um módulo para fazer a interface para uma execução dos comandos em Shell 
+como o exemplo de PIPE, ou seja, foi criado toda uma estrutura para realizar a mesma operação 
+que não existe no core da Linguagem Python. Por isso, a linguagem Shell Script é mais expressivo
+nesse quesito.
 
 <h3>Bibliografia</h3>
 1. The Python Standard Library. Disponível em: https://docs.python.org/3.4/library/subprocess.html. Acesso em: 26 ago. 2019. <br>
