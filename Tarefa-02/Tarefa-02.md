@@ -164,5 +164,6 @@ mostra um código de pipeline composta por dois comandos que são:
 com o padrão de começar com a string "jira-softw", então será printado no sdtout do sistema, 
 nesse caso o shell.
 
+Agora, realizando o mesmo procedimento na Linguagem Python.
 
-Agora, fazendo isso com a linguagem Python devemos fazer do seguinte modo como 
+ ![PShell](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/PipelineShell1.png)
