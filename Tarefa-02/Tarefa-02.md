@@ -163,3 +163,6 @@ mostra um código de pipeline composta por dois comandos que são:
 2. grep ^jira-softw: extrair do primeiro resultado, somente, os resultados que combinarem 
 com o padrão de começar com a string "jira-softw", então será printado no sdtout do sistema, 
 nesse caso o shell.
+
+
+Agora, fazendo isso com a linguagem Python devemos fazer do seguinte modo como 
