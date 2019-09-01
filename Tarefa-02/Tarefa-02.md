@@ -167,7 +167,7 @@ No exemplo abaixo é realizado na Linguagem Python o que foi feito na Linguagem 
  ![PShell](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/PipelineShell1.png)
  
 Em Python, há um módulo para chamado **subprocess** que tem por objetivo auxiliar os comandos de Shell.
-Este módulo tem classes como **POPEN** que criam e gerenciam os processos e um parâmetro chamado**PIPE** 
+Este módulo tem classes como **POPEN** que criam e gerenciam os processos e um parâmetro chamado **PIPE** 
 que pode ser passado como argumento que serve com STDIN, STDOUT ou STDERR.
 
 <h4>Análise Comparativa</h4>

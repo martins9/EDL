@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c80d53b8-c4cb-43d5-8050-3742ea67eb9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tarefa-02.md" beforeDir="false" afterPath="$PROJECT_DIR$/Tarefa-02.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,13 +50,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556485074518</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Novas inserções">
-      <created>1558995052140</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1558995052140</updated>
     </task>
     <task id="LOCAL-00011" summary="Novas inserções">
       <created>1559011462469</created>
@@ -395,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567377108830</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Novas inserções">
+      <created>1567382115016</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1567382115016</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
