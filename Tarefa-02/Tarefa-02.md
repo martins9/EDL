@@ -129,6 +129,13 @@ O controle de fluxo especificamente no Shell Script possui outras opções como:
 ![ControlesFluxos](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/Controle_Fluxo_2.png)
 <br>Exemplificação dos Controles de Fluxos
 
+<h3>Estrutura de Repetição</h3>
+Shell Script possui estrutura de repetições também como qualquer outra linguagem, ou seja, ela 
+possui os estruturas conhecidas como: for, while e particularmente conhecida Until.
+
+
+
+
 <h3>Funcionalidade</h3>
 No ambiente Linux há uma ferramenta muito poderosa chamada Pipe, esta tem como objetivo encadear 
 vários comandos em que o Stdout torna-se Stdin de outro comando, porém se houver algum erro ao
@@ -150,7 +157,8 @@ Abaixo um exemplo de código de pipeline.
 
 ![PShell](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/PipelineShell.png)
 
-No exemplo acima mmostra um código de pipeline composta por dois comandos que são:
+No exemplo acima 
+mostra um código de pipeline composta por dois comandos que são:
 1. ls -R: listar os conteúdos de diretórios e subdiretórios recursivamente.
 2. grep ^jira-softw: extrair do primeiro resultado, somente, os resultados que combinarem 
 com o padrão de começar com a string "jira-softw", então será printado no sdtout do sistema, 
