@@ -171,5 +171,5 @@ Este módulo tem outras funções como **Popen** e **Pipe** que administram os p
 
 
 <h3>Bibliografia</h3>
-1. The Python Standard Library. Disponível em: https://docs.python.org/3.4/library/subprocess.html. Acesso em: 26 ago. 2019.
+1. The Python Standard Library. Disponível em: https://docs.python.org/3.4/library/subprocess.html. Acesso em: 26 ago. 2019. <br>
 2. What is subprocess in Python?. Disponível em: https://www.quora.com/What-is-subprocess-in-Python. Acesso em: 30 ago. 2019.
