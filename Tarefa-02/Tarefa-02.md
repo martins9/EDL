@@ -133,7 +133,7 @@ O controle de fluxo especificamente no Shell Script possui outras opções como:
 Shell Script possui estrutura de repetições também como qualquer outra linguagem, ou seja, ela 
 possui os estruturas conhecidas como: for, while e particularmente conhecida Until.
 
-
+![EstruturaRepeticao](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/Estrutura_Repeticao.png)
 
 
 <h3>Funcionalidade</h3>
