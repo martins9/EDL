@@ -163,7 +163,7 @@ No exemplo acima mostra um código de pipeline composta por dois comandos que s�
 com o padrão de começar com a string "jira-softw", então será printado no sdtout do sistema, 
 nesse caso o shell.
 
-No exemplo abaixo é realizado na Linguagem Python o que foi feito na Linguagem Shell Script.
+No exemplo abaixo é realizado o **Pipe na Linguagem Python** o que foi feito na Linguagem Shell Script.
  ![PShell](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/PipelineShell1.png)
  
 Em Python, há um módulo para chamado **subprocess** que tem por objetivo auxiliar os comandos de Shell.
