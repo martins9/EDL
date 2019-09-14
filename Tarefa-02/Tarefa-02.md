@@ -170,6 +170,10 @@ Em Python, há um módulo para chamado **subprocess** que tem por objetivo auxil
 Este módulo tem classes como **POPEN** que criam e gerenciam os processos e um parâmetro chamado **PIPE** 
 que pode ser passado como argumento que serve com STDIN, STDOUT ou STDERR.
 
+Agora, utilizando a **Linguagem Java** para realizar o comando **PIPE** como está abaixo:
+
+
+
 <h4>Análise Comparativa</h4>
 Pode ser observado que enquanto a funcionalidade PIPE que vem como padrão em sistemas operativos 
 baseados em Unix e, assim, pode ser usada pelo Linguagem Shell Script. Enquanto que na Linguagem 
