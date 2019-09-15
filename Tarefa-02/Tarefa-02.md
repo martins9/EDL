@@ -175,7 +175,8 @@ Pode ser observado que enquanto a funcionalidade PIPE que vem como padrão em si
 baseados em Unix e, assim, pode ser usada como recurso nas linguages baseadas em Unix, por tanto 
 de forma natural pode ser usada sem ter que ser chamada outros recursos e, assim, não criando camadas
 para usar essa funcionalidade. Agora, observando as duas linguagens: Java e Python ambas possuem recursos
-que proporcionam o uso do Pipe. Abaixo um descritivo das duas linguagens: </br>
+que proporcionam o uso do Pipe. Abaixo um descritivo das duas linguagens: <br>
+
 1. **Em Python** <br>
 Na Linguagem Python pode ser usado o módulo _subprocess_ que tem por objetivo criar e gerenciar novos
 processos que utilizam o Shell conectando o _input/output/error_ assim podendo resolver os casos mais 
