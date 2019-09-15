@@ -82,7 +82,6 @@ variáveis.
 hora da execução de um programa respeitando a sintaxe do mesmo. Logo, também permite-se a criação de novas funções que 
 podem ser reusadas por outros programas formando-se assim uma biblioteca.
 
-
 <h2>Exemplos de código em Shell Script</h2>
 
 <h3>Variáveis</h3>
@@ -167,10 +166,6 @@ Abaixo é realizado a funcionalidade **Pipe na Linguagem Python** utilizando o m
 **Linguagem Shell Script**
 ![PShell](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/PipelineShell1.png)
  
-Em Python, há um módulo para chamado **subprocess** que tem por objetivo auxiliar os comandos de Shell.
-Este módulo tem classes como **POPEN** que criam e gerenciam os processos e um parâmetro chamado **PIPE** 
-que pode ser passado como argumento que serve com STDIN, STDOUT ou STDERR.
-
 Abaixo é realizado a funcionalidade **Pipe na Linguagem Java** utilizando o mesmo exemplo da 
 **Linguagem Shell Script**:
 ![JShell](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/PipelineShell2.png)
@@ -181,14 +176,21 @@ baseados em Unix e, assim, pode ser usada como recurso nas linguages baseadas em
 de forma natural pode ser usada sem ter que ser chamada outros recursos e, assim, não criando camadas
 para usar essa funcionalidade. Agora, observando as duas linguagens: Java e Python ambas possuem recursos
 que proporcionam o uso do Pipe. Abaixo um descritivo das duas linguagens: </br>
-1. **Em Python**
+1. **Em Python** <br>
+Na Linguagem Python pode ser usado o módulo _subprocess_ que tem por objetivo criar e gerenciar novos
+processos que utilizam o Shell conectando o _input/output/error_ assim podendo resolver os casos mais 
+comuns. Agora, nos casos que a manipulação de processos  (pai-filho), então usa-se a classe _Popen_ 
+que tem flexibilidade maior do que as outras classes. No exemplo acima, para estabelecer o Pipe como feito 
+em Shell Script foi utilizado esta classe: <br>
+- subprocess.Popen(): A classe recebe vários argumentos como: _Stdin, Stdout e Stderr_, estes specificam a 
+entrada padrão do programa executado, a saída padrão e os identificadores padrão de arquivos de erro, 
+respectivamente. Outro argumento passado para o stdout é o subprocess.Pipe que indica que um novo canal 
+deve ser criado para o processo filho.
+- subprocess.communicate(): Realiza a comunicação entre processos pai-filho realizando o envio de dados 
+para o stdin e a leitura de dados do stderr-stdout.
+   
+2. **Em Java** <br>
 
-
-enquanto que na Linguagem Python para realizar o mesmo procedimento, 
-pois ele não vem por padrão na Linguagem de Python, então foi desenvolvido um módulo para fazer a 
-interface para uma execução dos comandos em Shell como o exemplo de PIPE, ou seja, foi criado toda uma 
-estrutura para realizar a mesma operação que não existe no core da Linguagem Python. Por isso, a 
-linguagem Shell Script é mais expressivo nesse quesito.
 
 <h3>Bibliografia</h3>
 1. The Python Standard Library. Disponível em: https://docs.python.org/3.4/library/subprocess.html. Acesso em: 26 ago. 2019. <br>
