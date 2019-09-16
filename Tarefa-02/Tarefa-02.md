@@ -193,7 +193,8 @@ para o stdin e a leitura de dados do stderr-stdout.
 2. **Em Java** <br>
 Na Linguagem Java temos uma classe chamada _ProcessBuilder_ é uma classe auxiliar da classe _Process_
 que recebe um(a) coleção de comandos e a(s) executa(s) e, assim, o construtor da classe cria a sua instância.
-Agora, com a chamada do método start() é criado um processo com os meus atributos.
+O método start() quando é executado é criado uma instância com os mesmos atributos passados pelo construtor
+e cria-se um novo processo.
 
 <h3>Bibliografia</h3>
 1. The Python Standard Library. Disponível em: https://docs.python.org/3.4/library/subprocess.html. Acesso em: 26 ago. 2019. <br>
