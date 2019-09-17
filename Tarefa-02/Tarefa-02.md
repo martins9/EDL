@@ -171,11 +171,6 @@ Abaixo é realizado a funcionalidade **Pipe na Linguagem Java** utilizando o mes
 ![JShell](https://github.com/martins9/EDL/blob/master/Tarefa-02/Imagens/PipelineShell2.png)
 
 <h4>Análise Comparativa</h4>
-Pode ser observado que enquanto a funcionalidade PIPE que vem como padrão em sistemas operativos 
-baseados em Unix e, assim, pode ser usada como recurso nas linguages baseadas em Unix, por tanto 
-de forma natural pode ser usada sem ter que ser chamada outros recursos e, assim, não criando camadas
-para usar essa funcionalidade. Agora, observando as duas linguagens: Java e Python ambas possuem recursos
-que proporcionam o uso do Pipe. Abaixo um descritivo das duas linguagens: <br>
 
 1. **Em Python** <br>
 Na Linguagem Python pode ser usado o módulo _subprocess_ que tem por objetivo criar e gerenciar novos
@@ -191,10 +186,20 @@ deve ser criado para o processo filho.
 para o stdin e a leitura de dados do stderr-stdout.
    
 2. **Em Java** <br>
-Na Linguagem Java temos uma classe chamada _ProcessBuilder_ é uma classe auxiliar da classe _Process_
-que recebe um(a) coleção de comandos e a(s) executa(s) e, assim, o construtor da classe cria a sua instância.
-O método start() quando é executado é criado uma instância com os mesmos atributos passados pelo construtor
-e cria-se um novo processo.
+Na Linguagem Java temos uma classe chamada _ProcessBuilder_ que é uma classe auxiliar da classe _Process_ 
+que possui métodos para criar e configurar processos de um sistema operacional. Um desses métodos que 
+essa classe possui e que usamos no exemplo acima é método **start()** que inicia um novo processo com os
+atributos que da instância da classe. 
+No mesmo exemplo acima, pode ser observado que canalizamos a entrada e saída de dados com as classes: 
+_InputStream_ que tem por objetivo realizar a leitura de um ou sequência de bytes a partir de alguma fonte.
+_BufferedReader_ que tem por objetivo ler um bloco de bytes vindo de qualquer tipo de entrada.
+
+Pode ser observado que enquanto a funcionalidade PIPE que vem como padrão em sistemas operativos 
+baseados em Unix e, assim, pode ser usada como recurso nas linguages baseadas em Unix, por tanto 
+de forma natural pode ser usada sem ter que ser chamada outros recursos e, assim, não criando camadas
+para usar essa funcionalidade. Agora, observando as duas linguagens: Java e Python ambas possuem recursos
+que proporcionam o uso do Pipe. Abaixo um descritivo das duas linguagens: <br>
+
 
 <h3>Bibliografia</h3>
 1. The Python Standard Library. Disponível em: https://docs.python.org/3.4/library/subprocess.html. Acesso em: 26 ago. 2019. <br>
