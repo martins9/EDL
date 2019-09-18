@@ -177,7 +177,7 @@ Na Linguagem Python pode ser usado o módulo _subprocess_ que tem por objetivo c
 processos que utilizam o Shell conectando o _input/output/error_ assim podendo resolver os casos mais 
 comuns. Agora, nos casos que a manipulação de processos  (pai-filho), então usa-se a classe _Popen_ 
 que tem flexibilidade maior do que as outras classes. No exemplo acima, para estabelecer o Pipe como feito 
-em Shell Script foi utilizado esta classe: <br>
+em Shell Script foi utilizado esta classe:
 - subprocess.Popen(): A classe recebe vários argumentos como: _Stdin, Stdout e Stderr_, estes specificam a 
 entrada padrão do programa executado, a saída padrão e os identificadores padrão de arquivos de erro, 
 respectivamente. Outro argumento passado para o stdout é o subprocess.Pipe que indica que um novo canal 
