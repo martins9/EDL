@@ -195,12 +195,28 @@ _InputStream_ que tem por objetivo realizar a leitura de um ou sequência de byt
 _BufferedReader_ que tem por objetivo ler um bloco de bytes vindo de qualquer tipo de entrada.
 
 Pode ser observado que enquanto a funcionalidade PIPE que vem como padrão em sistemas operativos 
-baseados em Unix e, assim, pode ser usada como recurso nas linguages baseadas em Unix, por tanto 
-de forma natural pode ser usada sem ter que ser chamada outros recursos e, assim, não criando camadas
-para usar essa funcionalidade. Agora, observando as duas linguagens: Java e Python ambas possuem recursos
-que proporcionam o uso do Pipe. Abaixo um descritivo das duas linguagens: <br>
-
+baseados em Unix e, assim, pode ser usada como recurso nas linguages baseadas em Unix sem auxílio 
+de outros recursos. 
+Agora, em outras linguagens como Python e Java, como nos exemplos dados, quando se quer utilizar a funcionalidade
+(Pipe), então deve-se lançar mão dos recursos que a linguagem disponibiliza. No caso, da linguagem Python os 
+são o módulo subprocess que possui classes e métodos que criam e gerenciam os processos oriundo dos comandos 
+Shell. Ela faz uma inteface e alguns casos tem algumas funções do Shell implementas, sendo assim dispensando 
+a chamada ao Shell do sistema. Porém, se tiver necessidade de chamar o Shell do sistema pode ser feito passando
+como argumento nas devidas classes **Shell=True**, porém por questão de segurança não é aconselhado para
+evitar **injeção de Shell**. <br>
+No caso, da linguagem Java também existe uma classe que realiza a execução dos comandos Shell, cria processos
+e os gerencia, todavia no caso do Java há um detalhe por quê no Java o mesmo não sabe como interpretar  o caso
+do Pipe, por isso ele literalmente chama o Shell e passa os comandos como argumentos para o Shell executar e 
+recebe seu retorno.
+Por fim, podemos obervar que Python em comparação a Java realiza todo o trabalho de realizar uma camada e implementar
+uma forma de usar a funcionalidade Pipe ao contrário de Java. Agora, comparando com Shell Script foi visto que essa
+funcionalidade é intrínseca e pode ser utilizada sem nenhum recurso a mais, porém em relação a Python teve que ser 
+implementado um módulo (característica da linguagem Python) com classes e métodos para que manipulem a criação e
+gerencia de processos e a transferência de dados entre os mesmos, por isso Shell Script é mais expressivo do que 
+Python nesse caso.
 
 <h3>Bibliografia</h3>
 1. The Python Standard Library. Disponível em: https://docs.python.org/3.4/library/subprocess.html. Acesso em: 26 ago. 2019. <br>
-2. What is subprocess in Python?. Disponível em: https://www.quora.com/What-is-subprocess-in-Python. Acesso em: 30 ago. 2019.
+2. What is subprocess in Python?. Disponível em: https://www.quora.com/What-is-subprocess-in-Python. Acesso em: 30 ago. 2019. <br>
+3. Understanding Java Process and Java ProcessBuilder em: https://www.developer.com/java/data/understanding-java-process-and-java-processbuilder.html.
+ Acesso: 30 ago. 2019.
